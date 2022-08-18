@@ -80,6 +80,15 @@ header {
             max-width: 450px;
             margin: 0 auto;
         }
+        form.error input {
+             border: 2px solid hsl(0, 93%, 68%);
+        }
+        form.error .error-icon{
+            display: block;
+        }
+        form.error .error-text{
+            display: block;
+        }
             input {
                 position: absolute;
                 width: 100%;
