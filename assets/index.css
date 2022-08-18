@@ -28,7 +28,6 @@ body {
 }
 
 header {
-    /* display: none; */
     height: auto;
     padding: 30px;
 }
@@ -136,7 +135,11 @@ footer {
     header {
         position: absolute;
         padding-left: 10%;
+        margin-top: 30px;
     }
+        header img {
+            width: 180px;
+        }
     .page-wrapper {
         flex-direction: row;
         padding-top: 0px;
@@ -160,8 +163,9 @@ footer {
             width: 100%;
         }
             .headline {
-                font-size: 5rem;
+                font-size: 4.5rem;
                 line-height: 5.5rem;
+                letter-spacing: .7rem;
             }
             .paragraph {
                 margin-left: 0px;
